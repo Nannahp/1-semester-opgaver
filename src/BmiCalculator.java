@@ -24,11 +24,15 @@ public class BmiCalculator {
     weightInKg = in.nextDouble();
     in.nextLine(); // Scanner bug
 
-    calculateBmi(heightInCm, weightInKg);
+    double bmi = calculateBmi(heightInCm, weightInKg);
+    printBmiAndCategory(bmi);
   }
 
-  public void calculateBmi(int heightInCm, double weightInKg) {
-    double bmi = weightInKg / Math.pow(((double)heightInCm / 100), 2);
+  public double calculateBmi(int heightInCm, double weightInKg) {
+    return weightInKg / Math.pow(((double)heightInCm / 100), 2);
+  }
+
+  public void printBmiAndCategory(double bmi) {
     System.out.printf("Your BMI is %.1f and you are ", bmi);
     if (bmi < 18.5)
       System.out.println("underweight");
