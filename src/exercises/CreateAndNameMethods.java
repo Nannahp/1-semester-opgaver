@@ -1,3 +1,5 @@
+package exercises;
+
 public class CreateAndNameMethods {
   public static void main(String[] args) {
     new CreateAndNameMethods().run();

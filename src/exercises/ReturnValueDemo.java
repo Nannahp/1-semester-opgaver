@@ -1,3 +1,5 @@
+package exercises;
+
 public class ReturnValueDemo {
   public static void main(String[] args) {
     new ReturnValueDemo().run();

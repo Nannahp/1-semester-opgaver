@@ -1,3 +1,5 @@
+package exercises;
+
 public class VariablesDemo {
   public static void main(String[] args) {
     new VariablesDemo().run();

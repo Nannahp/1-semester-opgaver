@@ -1,9 +1,12 @@
 package exercises;
 
-import dk.patware.utils.ConsoleColors; // Change to your own or delete line and add ConsoleColors class to source
+// Change to your own or delete line and add ConsoleColors class to source
 import java.util.Scanner;
 
+
 public class BmiCalculator {
+
+
   public static void main(String[] args) {
     new BmiCalculator().run();
   }
